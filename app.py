@@ -9,6 +9,9 @@ from PIL import Image
 import pdf2image
 import google.generativeai as genai
 
+
+print("test1")
+
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_response(input, pdf_content, prompt):
